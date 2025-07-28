@@ -106,7 +106,7 @@ def main():
         writer.writeheader()
         writer.writerows(results)
 
-    print(f"\n✅ Done. Results saved to {OUTPUT_FILE}")
+    print(f"\n Done. Results saved to {OUTPUT_FILE}")
 
 if __name__ == "__main__":
     main()
